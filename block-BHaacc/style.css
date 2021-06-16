@@ -1,0 +1,368 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Style */
+
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+h3{
+	font-size: 25px;
+	font-weight: 700;
+}
+h4{
+	font-size: 28px;
+}
+h5{
+	font-size: 20px;
+	font-weight: 500;
+}
+p{
+	font-size: 14px;
+}
+.container{
+	max-width: 1500px;
+	padding: 0 120px;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.alp{
+	border: 2px solid crimson;
+}
+.design-box-main{
+	margin:8px 0;
+	justify-content: flex-start;
+}
+.design-box{
+	width: 10px;
+	height: 10px;
+	background-color: #d8d8d8;
+	margin: 2px;
+}
+/* Header */
+.head{
+	padding-top: 20px;
+	background: linear-gradient(to right, rgba(18,119,229,0.5),rgba(124,239,104,0.5)),url(assets/home-bg.jpg);
+	background-size: 100%;
+}
+
+.head a{
+	color: white;
+	font-size: 13px;
+	margin-right: 15px;
+	font-weight: 700;
+}
+.head-1 a{
+	font-size: 25px;
+	font-weight: 700;
+}
+.head-2{
+	width: 50%;
+}
+.head-2 a{
+	font-size: 15px;
+	margin-right: 30px;
+}
+.btn-head{
+	background-color: #cf3732;
+	border-width: 0px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-left: 20px;
+}
+.btn-head a{
+	font-size: 13px;
+	margin: 0 auto;
+}
+.head-start{
+padding: 230px 0;
+}
+.head-start-box1{
+	width: 45%;
+	line-height: 1.4;
+	color: white;
+}
+.head-start-box2{
+	width: 45%;
+}
+.head-start-box1-1{
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+.head-start-btn{
+	border:1px solid white;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-right: 20px;
+}
+.head-start-btn a{
+	color: white;
+}
+
+/* Section - Let us Introduce */
+.sec-lets-introduce{
+	flex-wrap: wrap;
+	padding-top: 40px;
+}
+.sec-lets-introduce-box1{
+	width: 40%;
+	align-self:stretch;
+	padding-top: 50px;
+}
+.sec-lets-introduce-box2{
+	width: 25%;
+	align-self:stretch;
+	padding-top: 50px;
+}
+.sec-lets-introduce-box3{
+	width: 30%;
+}
+.sec-lets-introduce-box1 p{
+	line-height: 1.7;
+	margin: 8px 0;
+}
+.sec-lets-introduce-box2 p{
+font-weight: 600;
+margin: 8px 0;
+}
+.sec-lets-introduce-box2 hr{
+	margin-left: 0;
+	border: 2px solid black;
+	background-color: black;
+}
+.hr-1{
+	width: 85%;
+}
+.hr-2{
+	width: 90%;
+}
+.hr-3{
+	width: 75%;
+}
+.hr-4{
+	width: 70%;
+}
+.sec-lets-introduce-img{
+	width: 100%;
+	vertical-align: bottom;
+}
+/* Section - our Blog */
+.sec-our-blog{
+	background-color: #efefef;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.sec-our-blog .design-box-main{
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.sec-our-blog-box{
+	flex-wrap: wrap;
+}
+.sec-our-blog-box-1{
+	width: 48%;
+	background-color: white;
+	text-align: left;
+	line-height: 1.3;
+	margin-bottom: 25px;
+	box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+.sec-our-blog-box-1-img{
+	width: 40%;
+	align-self: stretch;
+}
+.sec-our-blog-box-1-img img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.sec-our-blog p{
+	line-height: 1.7;
+	margin: 10px 0	;
+}
+.sec-our-blog-btn{
+	background-color: #efefef;
+	border-width: 0px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.sec-our-blog-btn a{
+	color: black;
+	font-weight: 500;
+}
+.sec-our-blog-box-1-txt{
+	width: 60%;
+	padding: 0 18px;
+}
+.go-red{
+	color: crimson;
+	font-size: 13px;
+	font-weight: 700;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+/* Section - Our Work */
+.sec-our-work{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.sec-our-work .design-box-main{
+	justify-content: center;
+}
+.sec-our-work-imgbox{
+	width: 23%;
+	margin-top: 20px;
+}
+.sec-our-work-imgbox img{
+	width: 100%;
+}
+
+/* Section - Contact Us */
+.sec-contact-us{
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: linear-gradient(to right,#1779e3,#79eb6c );
+}
+.sec-contact-us .design-box-main{
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.sec-contact-us-form-box{
+	width: 65%;
+	text-align: left;
+	flex-wrap: wrap;
+	align-self: stretch;
+}
+.sec-contact-us-form-box1{
+	width: 48%;
+	background-color: white;
+	color: gray;
+	padding: 20px 8px;
+	border-radius: 6px;
+	margin: 5px;
+}
+.sec-contact-us-form-box2{
+	width: 100%;
+	padding: 10px 8px;
+	height: 150px;
+}
+.sec-contact-us-form-box3{
+	background-color: #cf3732;
+	width: 200px;
+	padding: 15px 20px;
+	border-width: 0px;
+	border-radius: 35px;
+	margin: 10px 0;
+}
+.sec-contact-us-form-box3 a{
+	color: white;
+}
+.sec-contact-us-map{
+	border-radius: 50%;
+	align-self: flex-start;
+}
+
+/* Footer */
+.footer{
+	background: linear-gradient(to left,rgba(0,0,0,1),rgba(0,0,0,0.8));
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	line-height: 1.7;
+}
+.footer-sec1{
+	align-items: flex-start;
+}
+.footer-box1{
+	width: 40%;
+}
+.footer ul{
+	font-size: 28px;
+}
+.footer li,p{
+	font-size: 12px;
+}
+.footer hr{
+	border: 0.5px solid rgba(255,255,255,0.2);
+	margin: 40px 0;
+}
+.footer-sec2{
+	justify-content: flex-start;
+}
+.footer-sec2-div1{
+	width: 55%;
+}
+.footer small{
+	font-size: 12px;
+	margin-right: 30px;
+}
+.footer a{
+	font-size: 12px;
+	color: white;
+	margin-left: 20px;
+}
